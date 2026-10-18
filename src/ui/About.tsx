@@ -1,3 +1,6 @@
+import profile1 from '../assets/profile1.png';
+import profile2 from '../assets/profile2.png';
+
 export function About() {
   return (
     <div className="about-full-container">
@@ -10,7 +13,7 @@ export function About() {
           
           <div className="profile-card">
             <div className="profile-img">
-              <img src="/assets/profile1.png" alt="Profile 1" />
+              <img src={profile1} alt="Profile 1" />
             </div>
             <div className="profile-info">
               <p><strong>ชื่อ</strong> <br/>นายสัจจา กองรัมย์</p>
@@ -22,7 +25,7 @@ export function About() {
 
           <div className="profile-card">
             <div className="profile-img">
-              <img src="/assets/profile2.png" alt="Profile 2" />
+              <img src={profile2} alt="Profile 2" />
             </div>
             <div className="profile-info">
               <p><strong>ชื่อ</strong> <br/>นายธนวัฒน์ วิเศษชัยวรรณ</p>
